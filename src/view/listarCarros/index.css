@@ -1,0 +1,123 @@
+:root {
+    --var-principal: #922ee4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100vw;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    color: var(--var-principal);
+}
+
+.buttons {
+    width: 100%;
+    margin-top: 32px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    grid-gap: 20px;
+    /* background-color: brown; */
+}
+
+.container__search {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+#search {
+    width: 556px;
+    height: 42px;
+    padding-left: 12px;
+    background-color: rgba(146,46,228,0.13);
+    color: #0f0f0f;
+    border:transparent;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 0px 10px 3px rgba(146,46,228,0.63); 
+    box-shadow: 0px 0px 10px 3px rgba(146,46,228,0.63);
+    text-decoration: none;
+}
+
+#search:focus {
+    outline: 0;
+}
+
+.button {
+    width: 224px;
+    height: 64px;
+    padding: 20px;
+    background-color: var(--var-principal);
+    color: #f0f0f0;
+    border-radius: 32px 16px;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.criar{
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+    width: 15%;
+    background-color: var(--var-principal);
+    text-align: center;
+    font-weight: bold;
+    margin: 32px auto;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 1px 1px 10px 1px rgb(150,150,150);
+}
+
+.cards{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 5px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.card{
+    background-color: var(--var-principal);
+    border-radius: 10px;
+    padding: 10px;
+    color: #f0f0f0;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+}
+
+.card i{
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+    color: #f0f0f0;
+    text-shadow: 2px 2px 2px black;
+    cursor: pointer;
+}
+
+.editar{
+    margin-right: 8px;
+    right: 12% !important;
+}
+
+.visualizar{
+    right: 20% !important;
+}
