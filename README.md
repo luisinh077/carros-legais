@@ -6,4 +6,4 @@
 - Após feito o clone em sua máquina abra o terminal na pasta onde estão todos os arquivos do projeto
 - Digite o comando: npm install(Para funcionamento do comando é necessário ter o node instalado em sua máquina)
 - Após concluir todas as instalações digite o comando: npm start
-- Será aberto uma página com a aplicação rodando, caso não abra. Acesso o navegador e digite http://localhost:3000
+- Será aberto uma página com a aplicação rodando, caso não abra. Acesse o navegador e digite http://localhost:3000
