@@ -1,5 +1,3 @@
-## Projeto criado na 2° etapa de um processo seletivo
-
 ## Instruções para configurar e rodar a aplicação em localhost
 
 - Primeiro faça o git clone do projeto pelo terminal em sua máquina(git clone "https://github.com/luisinh077/carros-legais.git")
